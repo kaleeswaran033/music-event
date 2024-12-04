@@ -1,0 +1,162 @@
+*{padding: 0px;
+    margin: 0px;
+    popup-sizing: border-popup;
+}
+body{
+    background-color: white;
+}
+.overall{
+    width:100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.popup1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+iframe{
+    width: 480px;
+    height: 380px;
+}
+.popup11{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.popup11 i{
+    font-size: 30px;
+    color: blue;
+}
+.right{
+    /* background-color: beige; */
+    width: 600px;
+}
+.right h1{
+   font-size: 40px;
+   padding: 30px 0px 0px 30px;
+}
+
+.popup2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.popup21{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+flex-wrap: wrap;
+}
+.popup21 h4>i{
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(248, 117, 10);
+}
+.popup21 h4{
+    font-size: 20px;
+    /* margin: 5px; */
+    margin-top: -40px;
+}
+.popup21 div>i{
+background-color: rgb(248, 117, 10);
+color: white;
+border-radius: 50%;
+padding: 10px;
+margin: 5px;
+}
+.popup22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-wrap:wrap ;
+    /* gap: 5px; */
+}
+.popup22 i{
+    padding: 10px;
+}
+.popup22 h3{
+    padding: 15px 0px 5px 10px;
+    font-size: 20px;
+    color: rgb(248, 117, 10);
+}
+.popup23{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    flex-wrap:wrap ;
+    /* gap: 15px; */
+}
+.popup23 h3{
+font-size: 20px;
+color:rgb(248, 117, 10);
+padding-bottom:5px;
+margin-top:10px;
+}
+.popup23 p{
+padding: 8px 0px;
+}
+.popup24{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    flex-wrap: wrap;
+    /* gap: 5px; */
+}
+.popup24 h3{
+    color:rgb(248, 117, 10);
+    font-size: 23px;
+    padding: 0px 0px 10px 0px;
+}
+.popup24 h3+button{
+padding: 8px 80px;
+background-color: transparent;
+border: 1px solid rgb(248, 117, 10);
+border-radius: 20px; 
+}
+.popup24 button:last-child{
+    padding: 8px 75px;
+    background-color: rgb(248, 117, 10);
+    color: white;
+    border: none; 
+    border-radius: 20px; 
+}
+@media only screen and (min-width:300px) and (max-width:600px){ 
+    .body{
+        background-image:none;
+    }
+} 
+@media only screen and (min-width:600px) and (max-width:900px){
+    .overall{
+        flex-direction: column;
+    }
+    .popup1{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1100px){
+    .overall{
+        flex-direction: column;
+    }
+    .popup1{
+        flex-direction: column;
+    }
+}

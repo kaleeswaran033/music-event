@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-popup;  
+  }
+  body{
+    background-image: url(./bg.png);
+    background-size: cover;
+  }
+  h1{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
+  }
+  .overall{
+      margin-top: 100px;
+  }
+  p{
+    color: white;
+  }
+  .container{
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 150px;
+  }
+  .popup{
+      width: 300px;
+      min-height: 200px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 3px 3px black;
+      padding: 0px 20px;
+      text-align: center;
+  }
+  h2{
+      text-align: center;
+      color: white;
+  }
+  h4{
+      font-size: 16px;
+      margin-top: -20px;
+      color: white;
+  }
+  .icons{
+      background-color: lightgreen;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: relative;
+      bottom: 50px;
+      left: 30%;
+      font-size: 40px;
+      color: rgb(134, 53, 53);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .container p, h4{
+      line-height: 25px;
+  }
+  @media only screen and (min-width:300px) and (max-width:600px)
+  {
+      .container{
+          flex-direction: column;
+          margin-top: 50px;
+          gap:80px;
+          }
+     .overall{
+      margin-top: 50px;
+     }
+     .popup{
+      width: 80%;
+     }
+     .icons{
+      left: 30%;
+     }
+  }
+  @media only screen and (min-width:300px) and (max-width:600px)
+  {
+      .container{
+          flex-direction: column;
+          margin-top: 50px;
+          gap:80px;
+          }
+     .overall{
+      margin-top: 50px;
+     }
+     .icons{
+      left: 30%;
+     }
+  }
+  @media only screen and (min-width:600px) and (max-width:800px){
+      .container{
+          flex-direction:column;
+          gap:60px;
+          margin-top: 70px;
+      }
+      .popup{
+          width:60%;
+      }
+      .icon{
+          left:35%;
+      }
+   }
+   @media only screen and (min-width:800px) and (max-width:950px){
+      .container{
+          flex-direction:column;
+          gap:80px;
+          margin-top: 80px;
+      }
+      .popup{
+          width:80%;
+      }
+      .icons{
+          left:40%;
+      }
+   }

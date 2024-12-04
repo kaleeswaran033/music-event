@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>project 3</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <!-- Checkbox  menu -->
+        <input type="checkbox" id="check">
+    
+        <!-- Menu icon -->
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+    
+          <a href="">
+            <!-- <img src="./dj.gif"/> -->
+          <a href="#">the<span>MUSIC</span>.</a>
+        </div>
+        
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="./destination/destination.html">Destination</a></li>
+        <!-- <li><a href="./about/about.html">About</a></li> -->
+        <li><a href="./legend/legend.html">Our legends</a></li>
+        <!-- <li><a href="#">Us</a></li> -->
+        <li><a href="./contact/contact.html">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <!-- <button class="btn sign__up">WELCOME</button> -->
+        <button class="btn sign__in">WELCOME</button>
+      </div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+         <a href="#divOne"> <span><i class="fa-solid fa-key"></i></span>
+          Hotel Booking</a>
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <a href="#divtwo"><span><i class="fa-solid fa-passport"></i></span>
+           Event locations</a>
+        </div>
+        <div class="header__image__card header__image__card-3">
+         <a href="#divthree"> <span><i  class="fa-solid fa-map-location-dot"></i></span>
+          Local Events
+        </div></a>
+        <div class="header__image__card header__image__card-4">
+          <a href="#divfour"><span><i class="fa-brands fa-mendeley"></i></span>
+          Event Guide</a>
+        </div>
+        <img src="./pngwing.com (1).png" alt="header" style="width: 400px;height: 400px;" />
+      </div>
+      <div class="header__content">
+        <h1>Let's Go!<br />For<span>THEMUSIC</span> IS WAITING FOR YOU</h1>
+        <p>
+          Music festivals are community events that are emphasized towards a performance at an area with dance and music that is often segregated as a performance-based on musical genres like jazz, country, classical, folk etc.
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              
+              <div>
+              </div>
+            </div>
+          </div>
+                  </form>
+              
+       
+      </div>
+
+    </header>
+
+    <!-- hotel booking form -->
+ <div class="overlay" id="divOne">
+		<div class="wrapper">
+			<h2>Please Fill up The Form</h2><a class="close" href="#">&times;</a>
+			<div class="content">
+				<div class="container">
+					<form>
+						<label>First Name</label>
+						<input placeholder="Your name.." type="text">
+						<label>Last Name</label>
+						<input placeholder="Your last name.." type="text">
+						<label>How many mempers</label> <br>
+            <input placeholder="ex:2" type="number"><br><br>
+						<!-- <textarea iplaceholder="Write something.."></textarea> -->
+						<input type="submit" value="book">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+   <!--event location form  -->
+   <div class="overlay" id="divtwo">
+		<div class="wrapper">
+			<h2>Event location</h2><a class="close" href="#">&times;</a>
+			<div class="content">
+				<div class="container">
+					<h1>Chennai</h1>
+          <h5>Velachery</h5>
+
+				</div>
+			</div>  
+		</div>
+	</div>
+   <!--local booking form  -->
+   <div class="overlay" id="divthree">
+		<div class="wrapper">
+			<h2>Local event this week</h2><a class="close" href="#">&times;</a>
+			<div class="content">
+				<div class="container">
+					<form>
+            
+            <h1>Sunday event </h1>
+            <p>Ilayaraja Mega Concert</p><br>
+						<label>your Opinion</label> 
+						<textarea iplaceholder="Write something.."></textarea>
+						<input type="submit" value="book" >
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+   <!--guide form  -->
+   <div class="overlay" id="divfour">
+		<div class="wrapper">
+			<h2>Your guide</h2><a class="close" href="#">&times;</a>
+			<div class="content">
+				<div class="container">
+					<form>
+						<label>Guide Name</label>
+            <!-- <img class="ksl" src="./destination/img1.jfif"/> -->
+						<p>Kale</p><br>
+						<label>Guide mail</label>
+						<p>
+              kale333@gmail.com
+            </p><br>
+            <label>Number</label>
+            <p>9150407131</p><br>
+						<label>Your Requirment </label> 
+						<textarea iplaceholder="Write something.."></textarea>
+						<input type="submit" value="send mail">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  
+  </body>
+</html>
